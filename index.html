@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lab01</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="head">
+      <div class="inherit-wrap"><p>Лабораторная работа №1</p></div>
+      <p>Убоженко Сергей Дмитриевич P3212</p>
+      <p>Вариант 2325</p>
+    </div>
+    <div class="stage">
+      <img src="img/areas.png" alt="areas.png" />
+      <form action="server.php" method="post" onsubmit="return validate();">
+        <label for="changex">Введите X:</label><br />
+        <p id="invalidx"></p>
+        <input type="text" name="changex" id="changex" autocomplete="off"/><br />
+        <label for="changey">Введите Y:</label><br />
+        <select name="changey" id="changey">
+          <option value="-5">-5</option>
+          <option value="-4">-4</option>
+          <option value="-3">-3</option>
+          <option value="-2">-2</option>
+          <option value="-1">-1</option>
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option></select
+        ><br />
+        <label for="changer">Введите R:</label><br />
+        <select name="changer" id="changer">
+          <option value="1">1</option>
+          <option value="1.5">1.5</option>
+          <option value="2">2</option>
+          <option value="2.5">2.5</option>
+          <option value="3">3</option></select
+        ><br />
+        <input type="submit" value="Проверка" id="sbutton" />
+      </form>
+    </div>
+
+    <script src="validation.js"></script>
+    
+  </body>
+</html>

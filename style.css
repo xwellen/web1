@@ -1,0 +1,83 @@
+body {
+  padding: 0 20px 20px 20px;
+  background-color: #f6e8ea;
+}
+
+.head {
+  padding: 10px 10px 10px 10px;
+  background-color: #084b83;
+  font-family: monospace;
+  font-size: 18px;
+  color: white;
+  border-radius: 2px;
+}
+
+.inherit-wrap {
+  border: 1px;
+  border-style: solid;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+}
+
+.stage {
+  margin-top: 20px;
+  text-align: center;
+}
+
+select,
+input {
+  box-sizing: border-box;
+}
+
+.stage select,
+input {
+  width: 200px;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.stage input[type="text"]:focus,
+select:focus {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.stage #sbutton {
+  height: 40px;
+  border-width: 1px;
+  border-style: solid;
+  margin-top: 10px;
+}
+
+.stage #sbutton:hover {
+  background-color: #aa7dce;
+}
+
+.stage #sbutton:active {
+  background-color: #42bfdd;
+}
+
+.stage > form > label {
+  font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.stage form {
+  margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+th, td{
+    padding: 2px 2px 2px 2px;
+}
+
