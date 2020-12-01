@@ -41,7 +41,7 @@ function checkR($r){
 
 
 function checkCoordinate($x, $y, $r){
-    if ($x>0 && $y<0 && $y >= $r*(-2*$x/$r-1)){
+    if ($x<0 && $y>0 && $y >= $r*(-2*$x/$r-1)){
         return true;
     }
     elseif ($x<0 && $y<0 && $x*$x+$y*$y <= $r*$r/4){
